@@ -1,6 +1,7 @@
 //scheduler code
 //Tokens >Based on Date-Time> updateTokens
 //form_name>Based on field_name >scheduler name
+//Set this scheduler on date time field so it will run on selected date and time field value
 token_info = Tokens[Refresh_Token == ""];
 url = "https://accounts.zoho.eu/oauth/v2/token";
 params = Map();
